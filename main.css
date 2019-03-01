@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+}
+
+#taskList {
+    list-style: none;
+}
+
+li {
+    opacity: 1;
+    transition: opacity 2s;
+}
