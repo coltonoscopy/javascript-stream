@@ -16,8 +16,7 @@ button.onclick = function() {
     checkbox.type = 'checkbox';
 
     checkbox.onclick = function() {
-        newTask.setAttribute('style', 'text-decoration: line-through;');
-        newTask.setAttribute('style', 'opacity: 0');
+        newTask.setAttribute('style', 'text-decoration: line-through; opacity: 0;');
 
         window.setTimeout(function() {
             taskList.removeChild(newTask);
